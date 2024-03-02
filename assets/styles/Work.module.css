@@ -356,10 +356,12 @@ strong {
   font-weight: 700;
 }
 
+
 .t-heading,
 .t-primary {
   position: relative;
-  font-family: Bitter, serif;
+  font-family: "Bricolage Grotesque", sans-serif;
+
   line-height: 1.125;
   color: var(--text);
   scroll-margin-top: -40px;
@@ -2592,8 +2594,8 @@ html:not(.is-loading)
 
 .article-heading__title {
   margin-bottom: 50px;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
-
 @media (min-width: 512px) {
   .article-heading__title {
     margin-bottom: 60px;
