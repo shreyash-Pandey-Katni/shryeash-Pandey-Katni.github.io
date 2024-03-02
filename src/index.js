@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  createBrowserRouter, RouterProvider, createHashRouter
+  createBrowserRouter, RouterProvider
 } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import About from './About';
@@ -12,7 +12,7 @@ import Header from './Header';
 import Work from './Work';
 import Projects from './Projects';
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   [
     {
       path: '/',
