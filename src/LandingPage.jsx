@@ -2967,7 +2967,7 @@ z"
                 <p>{project.description1}</p>
                 <p>{project.description2}</p>
                 <a
-                  href="https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode"
+                  href={project.link}
                   target="_blank"
                   rel="noreferrer"
                   class="btn"

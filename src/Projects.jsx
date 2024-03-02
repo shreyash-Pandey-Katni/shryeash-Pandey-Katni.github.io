@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 function Projects() {
   const projects = [
     {
@@ -57,6 +59,11 @@ function Projects() {
       href: "https://github.com/Shreyashjiodndian2/quoteImgRepo",
     },
   ];
+
+useEffect(() => {
+  document.title = "Projects | Shreyash Pandey";
+}
+, []);
 
   return (
     <main id="main-content" class="page-body" tabindex="-1">

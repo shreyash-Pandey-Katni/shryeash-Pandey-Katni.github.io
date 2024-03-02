@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
 a,
 abbr,
 acronym,
@@ -83,8 +85,11 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
+}
+
+h2, h3, h4, h5, h6, p {
+  font-family: "Vollkorn", serif;
 }
 
 article,
@@ -355,7 +360,7 @@ strong {
 .t-heading,
 .t-primary {
   position: relative;
-  font-family: Bitter, serif;
+  /* font-family: Bitter, serif; */
   line-height: 1.125;
   color: var(--text);
   scroll-margin-top: -40px;
@@ -587,8 +592,6 @@ p:not([class]) {
 
 p:not([class]) {
   -webkit-font-smoothing: antialiased;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
-    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.6rem;
   font-weight: 400;
   color: var(--text);
@@ -2588,6 +2591,7 @@ html:not(.is-loading)
 
 .article-heading__title {
   margin-bottom: 50px;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 
 @media (min-width: 512px) {
