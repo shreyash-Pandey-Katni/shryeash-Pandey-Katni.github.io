@@ -21,7 +21,7 @@ function Header() {
       link.href = "/assets/styles/About.module.css";
       link.rel = "stylesheet";
       document.head.appendChild(link);
-    } else if(window.location.pathname === "/projects"){
+    } else if (window.location.pathname === "/projects") {
       const link = document.createElement("link");
       link.href = "/assets/styles/Projects.module.css";
       link.rel = "stylesheet";
@@ -68,15 +68,7 @@ function Header() {
             <span class="u-vhide">Back to the homepage</span>{" "}
             <span class="logo js-logo">
               <div class="logo__skirrid">
-                <div
-                  class="shade"
-                  data-drift="-5 -10"
-                  style={
-                    {
-                      // transform: `translate(${transformX}px, ${transformY}px)`,
-                    }
-                  }
-                >
+                <div class="shade" data-drift="-5 -10">
                   <svg version="1.1" x="0px" y="0px" viewBox="0 0 256 256">
                     <polygon
                       class="filled-poly"
@@ -140,7 +132,7 @@ function Header() {
         </div>
         <Link
           class="hire-me"
-          to="mailto:nsriramula@hawk.iit.edu?subject=🤘 Hi Niraj, I'd like to hire you"
+          to={`mailto:shreyash.pandey.katni@gmail.com?subject=🤘 Hi Shreyash, I'd like to hire you`}
         >
           <div
             class="shade"
@@ -176,73 +168,14 @@ function Header() {
             <ul class="social-links">
               {socialMedia.map((social, socialIndex) => (
                 <li class="social-links__item">
-                  {socialIndex < 2 && (
-                    <Link
-                      class={`social-links__link ${social.icon}`}
-                      to={social.link}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      Follow me on {social.name}
-                    </Link>
-                  )}
-                  {socialIndex >= 2 && (
-                    <Link
-                      class={`social-links__link`}
-                      to={social.link}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        backgroundImage: `url(/assets/images/${social.icon}.svg)`,
-                      }}
-                    >
-                      {social.name == "Medium" && (
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          x="0px"
-                          y="0px"
-                          width="100"
-                          height="100"
-                          viewBox="0 0 64 64"
-                        >
-                          <path d="M 18.998047 15 A 17.002 17.002 0 0 0 18.998047 49.003906 A 17.002 17.002 0 0 0 18.998047 15 z M 45.498047 16 A 8.502 16.002 0 0 0 45.498047 48.003906 A 8.502 16.002 0 0 0 45.498047 16 z M 58.5 17 A 3.5 15.002 0 1 0 58.5 47.003906 A 3.5 15.002 0 1 0 58.5 17 z"></path>
-                        </svg>
-                      )}
-                      {social.name == "Stack Overflow" && (
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          x="0px"
-                          y="0px"
-                          width="100"
-                          height="100"
-                          viewBox="0 0 50 50"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M 40.925781 1.890625 L 37.859375 2.417969 L 41.1875 20.625 L 44.03125 20.253906 Z M 29.96875 6.351563 L 27.101563 8.078125 L 37.300781 23.035156 L 39.820313 21.480469 Z M 20.796875 15.03125 L 19.113281 17.703125 L 34.5 27 L 35.902344 24.578125 Z M 16.375 24.402344 L 15.628906 27.402344 L 33.359375 31.894531 L 33.640625 29.203125 Z M 9 29 L 9 47.984375 L 38.902344 48 L 38.902344 47.984375 C 38.933594 47.984375 39 29 39 29 L 36 29 L 36 45 L 12 45 L 12 29 Z M 15.152344 32.355469 L 14.902344 35.339844 L 33 37 L 33.203125 34.5 Z M 14.902344 39 L 15 42 L 33 41.929688 L 33 39 Z"
-                          ></path>
-                        </svg>
-                      )}
-                      {social.name == "Topmate" && (
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          x="0px"
-                          y="0px"
-                          width="200"
-                          height="200"
-                          viewBox="0 0 30 30"
-                        >
-                          <path
-                            d="M23.4394 21.4087C22.3801 22.9062 20.8648 24.0208 19.1199 24.5862C17.3749 25.1515 15.4939 25.1373 13.7577 24.5455C12.0215 23.9537 10.5233 22.8162 9.4869 21.3028C8.45048 19.7894 7.93143 17.9813 8.00727 16.1486C8.0831 14.3159 8.74975 12.5569 9.90765 11.1343C11.0656 9.71168 12.6526 8.7018 14.4317 8.25547C16.2109 7.80915 18.0866 7.95032 19.7789 8.6579C21.4712 9.36548 22.8892 10.6015 23.8212 12.1814L16.5 16.5L23.4394 21.4087Z"
-                            fill="black"
-                          />
-                        </svg>
-                      )}
-                      Follow me on {social.name}
-                    </Link>
-                  )}
+                  <Link
+                    class={`social-links__link ${social.icon}`}
+                    to={social.link}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Follow me on {social.name}
+                  </Link>
                 </li>
               ))}
             </ul>
