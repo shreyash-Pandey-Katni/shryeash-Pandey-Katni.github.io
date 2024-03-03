@@ -1917,7 +1917,7 @@ body {
   background: var(--bg);
   min-height: calc(100vh - 40px);
   position: relative;
-  /* padding: 20px */
+  padding: 20px
 }
 
 body:after,
@@ -1953,7 +1953,7 @@ html.lock-scroll {
   }
 
   body {
-    padding: 10px;
+    padding: 20px;
   }
 
   body:after,
@@ -4440,10 +4440,9 @@ html:not(.is-loading).js .is-onscreen .reveal-content {
 }
 
 @media screen and (max-width: 512px) {
-  .illustration__layer{
+  .illustration__layer {
     position: relative;
   }
-  
 }
 
 .code {
