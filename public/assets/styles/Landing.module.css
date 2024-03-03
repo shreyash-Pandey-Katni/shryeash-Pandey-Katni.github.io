@@ -3866,7 +3866,7 @@ html:not(.is-loading).js .is-onscreen .reveal-content {
   }
 
   .project-promo__item {
-    display: flex;
+    /* display: flex; */
     padding-bottom: 30px;
   }
 
@@ -4437,6 +4437,13 @@ html:not(.is-loading).js .is-onscreen .reveal-content {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 512px) {
+  .illustration__layer{
+    position: relative;
+  }
+  
 }
 
 .code {
