@@ -2076,7 +2076,7 @@ hr {
   display: inline-block;
   vertical-align: middle;
   position: fixed;
-  width: 200px;
+  width: 100%;
   top: 0;
   left: 35px;
 }
@@ -2201,7 +2201,7 @@ hr {
   vertical-align: middle;
   text-align: center;
   width: 100px;
-  height: 18px;
+  /* height: 0px; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
     Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   position: fixed;

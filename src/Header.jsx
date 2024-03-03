@@ -60,9 +60,32 @@ function Header() {
     },
   ];
 
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollY]);
+
   return (
     <Stack direction="row">
-      <div className="mainnav">
+      <div
+        className="mainnav"
+        style={{
+          // backgroundColor:
+          //   scrollY > window.innerHeight &&
+          //   document.getElementsByClassName("is-open").length === 0
+          //     ? "rgba(0, 0, 0, 0.5)"
+          //     : "transparent",
+          // transition: "all 0.5s ease",
+          // backdropFilter: scrollY > window.innerHeight ? "blur(10px)" : "none",
+        }}
+      >
         <div class="logo-wrap">
           <Link to="/">
             <span class="u-vhide">Back to the homepage</span>{" "}
@@ -134,15 +157,7 @@ function Header() {
           class="hire-me"
           to={`mailto:shreyash.pandey.katni@gmail.com?subject=🤘 Hi Shreyash, I'd like to hire you`}
         >
-          <div
-            class="shade"
-            data-drift="-5 -10"
-            style={
-              {
-                // transform: `translate(${transformX}px, ${transformY - 5 * 2}px)`,
-              }
-            }
-          >
+          <div class="shade" data-drift="-5 -10">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
               <path
                 class="filled-path"

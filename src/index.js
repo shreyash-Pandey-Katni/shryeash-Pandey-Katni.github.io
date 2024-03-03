@@ -17,19 +17,19 @@ const router = createBrowserRouter(
     {
       path: '/',
       exact: true,
-      element: <div style={{backgroundColor:"#000401"}}><Header /> <LandingPage /></div>
+      element: <div style={{backgroundColor:"#000401"}} className='pagewrap'><Header /> <LandingPage /></div>
     },
     {
       path: '/about',
-      element: <div><Header /> <About /></div>
+      element: <div className='pagewrap'><Header /> <About /></div>
     },
     {
       path: '/work',
-      element: <div><Header /> <Work /></div>
+      element: <div className='pagewrap'><Header /> <Work /></div>
     },
     {
       path: '/projects',
-      element: <div><Header /> <Projects /></div>
+      element: <div className='pagewrap'><Header /> <Projects /></div>
     }
   ]
 );

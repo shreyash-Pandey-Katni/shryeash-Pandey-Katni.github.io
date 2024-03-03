@@ -2959,7 +2959,7 @@ z"
               </div>
             </div>
             <div class="project__details">
-              <div class="flow" style={{ textAlign: "left" }}>
+              <div class="flow">
                 <h3 class="t-heading t-lede:s t-medium:m t-medium:l">
                   {project.name}
                   <span class="dot">.</span>
