@@ -173,7 +173,7 @@ function Header() {
               ></path>
             </svg>
           </div>
-          Hire me
+          Contact me
         </Link>
       </div>
       <div class="main-menu js-menu" id="main-menu">

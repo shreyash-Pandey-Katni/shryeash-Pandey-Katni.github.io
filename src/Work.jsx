@@ -393,7 +393,7 @@ function Work() {
       title: "Software Engineer - Software AG",
       description1: (
         <p>
-          As a <strong>lead software engineer</strong> at <em>Software AG</em>,
+          As a <strong>software engineer</strong> at <em>Software AG</em>,
           I <strong>designed and implemented</strong> a new UI for the{" "}
           <em>Agile Tester Tool</em>, a software testing platform that helps
           developers and testers deliver high-quality products faster and
@@ -793,8 +793,7 @@ function Work() {
             <p className="page-header__lede t-primary lh-loose t-body:s t-sublede:m t-lede:l reveal-content">
               With a relentless commitment to innovation, I collaborate with
               visionary teams to craft captivating websites and products that
-              resonate with users. From my impactful contributions to esteemed
-              clients like Software AG, where I spearheaded projects
+              resonate with users. From my impactful contributions at Software AG, where I spearheaded projects
               revolutionizing UI design and enhancing customer support through
               chatbot development, to my pursuit of a Bachelor of Engineering
               from Bangalore Institute of Technology, I have immersed myself in
