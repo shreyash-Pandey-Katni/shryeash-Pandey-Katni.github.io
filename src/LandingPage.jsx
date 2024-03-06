@@ -2844,18 +2844,39 @@ z"
         {
           name: "Hyperswitch",
           iconBg: (
-            <svg width="265" height="265" viewBox="0 0 265 265" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8">
-  <path d="M202.202 0H63.716C28.515 0 0 28.515 0 63.716C0 98.917 28.515 127.432 63.716 127.432H202.202C237.403 127.432 265.918 98.917 265.918 63.716C265.918 28.515 237.403 0 202.202 0Z" fill="#0070FF"/>
-  <path d="M208.482 83.863C219.72 83.863 229.068 74.515 229.068 63.277C229.068 52.039 219.72 42.691 208.482 42.691C197.244 42.691 187.896 52.039 187.896 63.277C187.896 74.515 197.244 83.863 208.482 83.863Z" fill="white"/>
-  <path d="M79.231 79.404L58.154 46.738C57.978 46.494 56.768 46.494 56.592 46.738L35.515 79.404C35.339 79.648 35.592 79.926 35.892 79.926H78.854C79.154 79.926 79.407 79.648 79.231 79.404Z" fill="white"/>
-  <path d="M149.541 45.079H116.082C115.682 45.079 115.332 45.429 115.332 45.829V80.288C115.332 80.688 115.682 81.038 116.082 81.038H149.541C149.941 81.038 150.291 80.688 150.291 80.288V45.829C150.291 45.429 149.941 45.079 149.541 45.079Z" fill="white"/>
-</svg>
-
+            <svg
+              width="265"
+              // height="265"
+              // viewBox="0 0 265 265"
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0.8"
+            >
+              <path
+                d="M202.202 0H63.716C28.515 0 0 28.515 0 63.716C0 98.917 28.515 127.432 63.716 127.432H202.202C237.403 127.432 265.918 98.917 265.918 63.716C265.918 28.515 237.403 0 202.202 0Z"
+                fill="#0070FF"
+              />
+              <path
+                d="M208.482 83.863C219.72 83.863 229.068 74.515 229.068 63.277C229.068 52.039 219.72 42.691 208.482 42.691C197.244 42.691 187.896 52.039 187.896 63.277C187.896 74.515 197.244 83.863 208.482 83.863Z"
+                fill="white"
+              />
+              <path
+                d="M79.231 79.404L58.154 46.738C57.978 46.494 56.768 46.494 56.592 46.738L35.515 79.404C35.339 79.648 35.592 79.926 35.892 79.926H78.854C79.154 79.926 79.407 79.648 79.231 79.404Z"
+                fill="white"
+              />
+              <path
+                d="M149.541 45.079H116.082C115.682 45.079 115.332 45.429 115.332 45.829V80.288C115.332 80.688 115.682 81.038 116.082 81.038H149.541C149.941 81.038 150.291 80.688 150.291 80.288V45.829C150.291 45.429 149.941 45.079 149.541 45.079Z"
+                fill="white"
+              />
+            </svg>
           ),
           description1:
             "Hyperswitch is a community-led, open payments switch aimed at facilitating access to diverse payments infrastructure for digital businesses. With support for over 50 payment processors and various global payment methods, it offers features like failover, smart routing, and customization.",
           description2:
-            "Hyperswitch provides robust performance in handling the link prediction task, a crucial metric for evaluating a model's ability to forecast missing facts in a knowledge graph. Studies indicate it can be up to five times faster than AmpliGraph and twenty-four times faster than OpenKE.",
+            "Building on its robust capabilities, Hyperswitch is designed to empower businesses by providing them with unparalleled control over their payment processes. Its user-friendly interface and comprehensive analytics tools allow businesses to monitor transaction flows in real-time, enabling them to make data-driven decisions. Furthermore, Hyperswitch's commitment to security ensures that all transactions are conducted with utmost integrity, providing businesses with the confidence they need to grow in the digital economy. With its continuous innovation and community-driven approach, Hyperswitch is revolutionizing the way businesses handle payments.",
           link: "https://hyperswitch.io",
         },
       ],
